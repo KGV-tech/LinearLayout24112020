@@ -12,12 +12,13 @@
         android:layout_weight="1"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:orientation="vertical"
-        >
+        android:orientation="vertical">
 
         <TextView
             android:gravity="center"
             android:background="#f20"
+            android:textSize="30dp"
+            android:textColor="#ffff"
             android:layout_weight="1"
             android:text="A"
             android:layout_width="match_parent"
@@ -26,6 +27,8 @@
         <TextView
             android:gravity="center"
             android:background="#009688"
+            android:textSize="30dp"
+            android:textColor="#ffff"
             android:layout_weight="1"
             android:text="B"
             android:layout_width="match_parent"
@@ -34,6 +37,8 @@
         <TextView
             android:gravity="center"
             android:background="#070707"
+            android:textSize="30dp"
+            android:textColor="#ffff"
             android:layout_weight="1"
             android:text="C"
             android:layout_width="match_parent"
@@ -42,6 +47,8 @@
         <TextView
             android:gravity="center"
             android:background="#3F51B5"
+            android:textSize="30dp"
+            android:textColor="#ffff"
             android:layout_weight="1"
             android:text="D"
             android:layout_width="match_parent"
@@ -50,9 +57,50 @@
     </LinearLayout>
 
     <LinearLayout
-    android:layout_weight="1"
-    android:layout_width="match_parent"
-    android:layout_height="0dp">
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:gravity="center"
+            android:background="#f20"
+            android:textSize="30dp"
+            android:textColor="#ffff"
+            android:layout_weight="1"
+            android:text="A"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"/>
+
+        <TextView
+            android:gravity="center"
+            android:background="#009688"
+            android:textSize="30dp"
+            android:textColor="#ffff"
+            android:layout_weight="1"
+            android:text="B"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"/>
+
+        <TextView
+            android:gravity="center"
+            android:background="#070707"
+            android:textSize="30dp"
+            android:textColor="#ffff"
+            android:layout_weight="1"
+            android:text="C"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"/>
+
+        <TextView
+            android:gravity="center"
+            android:background="#3F51B5"
+            android:textSize="30dp"
+            android:textColor="#ffff"
+            android:layout_weight="1"
+            android:text="D"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"/>
 
     </LinearLayout>
 
