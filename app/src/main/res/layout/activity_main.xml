@@ -10,83 +10,108 @@
     android:orientation="vertical"
     >
 <!--    Group 1 : 1-->
-    <TextView
-        android:gravity="center"
-        android:background="#f20"
-        android:textSize="60dp"
-        android:textColor="#ffff"
-        android:text="1"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="3"/>
-
-<!--    Group 2 : 2,3,4,5-->
     <LinearLayout
+        android:layout_weight="1.5"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="7"
         android:weightSum="10"
-        android:orientation="horizontal"
-        >
+        android:orientation="horizontal">
 
         <TextView
-            android:text="2"
-            android:background="#FFEB3B"
-            android:textSize="60dp"
+            android:text="1"
             android:textColor="#ffff"
+            android:background="#f20"
+            android:textSize="50dp"
             android:gravity="center"
             android:layout_weight="3"
             android:layout_width="0dp"
             android:layout_height="match_parent"/>
 
+        <TextView
+            android:text="2"
+            android:textColor="#ffff"
+            android:background="#FFEB3B"
+            android:textSize="50dp"
+            android:gravity="center"
+            android:layout_weight="7"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+<!--    Group 2 : 3,4,5-->
+    <LinearLayout
+        android:layout_weight="6"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:weightSum="10"
+        android:orientation="horizontal">
+
         <LinearLayout
             android:layout_weight="7"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:weightSum="10"
-            android:orientation="vertical"
-            >
+            android:orientation="vertical">
 
             <TextView
                 android:text="3"
-                android:textSize="60dp"
                 android:textColor="#ffff"
-                android:background="#2196F3"
+                android:background="#239728"
+                android:textSize="50dp"
                 android:gravity="center"
-                android:layout_weight="7"
+                android:layout_weight="1"
                 android:layout_width="match_parent"
-                android:layout_height="0dp"/>
+                android:layout_height="match_parent"/>
 
-             <LinearLayout
-                 android:layout_weight="3"
-                 android:layout_width="match_parent"
-                 android:layout_height="0dp"
-                 android:orientation="horizontal"
-                 >
-
-                 <TextView
-                     android:text="4"
-                     android:textSize="60dp"
-                     android:textColor="#ffff"
-                     android:background="#F3B3B3"
-                     android:gravity="center"
-                     android:layout_weight="1"
-                     android:layout_width="match_parent"
-                     android:layout_height="match_parent"/>
-
-                 <TextView
-                     android:text="5"
-                     android:textSize="60dp"
-                     android:textColor="#ffff"
-                     android:background="#9C27B0"
-                     android:gravity="center"
-                     android:layout_weight="1"
-                     android:layout_width="match_parent"
-                     android:layout_height="match_parent"/>
-
-             </LinearLayout>
+            <TextView
+                android:text="4"
+                android:textColor="#ffff"
+                android:background="#9C27B0"
+                android:textSize="50dp"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
 
         </LinearLayout>
+
+        <TextView
+            android:text="5"
+            android:textColor="#ffff"
+            android:background="#CAC4FD"
+            android:textSize="50dp"
+            android:gravity="center"
+            android:layout_weight="3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+<!--    Group 3 : 6,7-->
+    <LinearLayout
+        android:layout_weight="2.5"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <TextView
+            android:text="6"
+            android:textColor="#ffff"
+            android:background="#FF9800"
+            android:textSize="50dp"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <TextView
+            android:text="7"
+            android:textColor="#ffff"
+            android:background="#3F51B5"
+            android:textSize="50dp"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
 
     </LinearLayout>
 
